@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.Page-Title {
+    font-size: 38px;
+    text-align: center;
+    color: #056946;
+}
+
+.Date {
+    color: #01804f;
+    text-align: right;
+    font-size: 17;
+}
+
+
+main {
+    margin: auto;
+    width: 75%;
+}
+
+table {            
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 7px;
+    font-size: 14px;
+     background-color: #6e6e6e;
+     color: white;
+}
+
+td {
+    padding: 8px;
+}
+
+.Hora {
+    font-weight: 700;
+    background-color: #6e6e6e;
+    color: white;
+}
+
+.RECESO {
+    background-color: #d1d1d1;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 4px;
+    letter-spacing: 19px;
+}
+
+.profesores {
+    margin-left: 80px;
+    width: 40%;
+    margin-top: 50px;
+}

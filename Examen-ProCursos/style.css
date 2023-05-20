@@ -1,0 +1,230 @@
+/* ---------------- Global ---------------- */
+* {
+
+    margin: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ---------------- Header & Navbar ---------------- */
+.navbar {
+    position: absolute;
+    padding-top: 0;
+    background-color: #494949;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+}
+
+.navTitle .menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navTitle {
+    text-align: center;
+    font-weight: 800;
+    font-size: 33px;
+    color: rgba(231, 145, 32, 0.897);
+}
+
+.menu {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.menu a:hover {
+    font-size: 18px;
+}
+
+.navbar a {
+    margin-left: 25px;
+    font-weight: 700;
+    color: rgb(253, 175, 72);
+}
+
+.Active {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 9px;
+    font-size: 17px;
+    background: #fdfdfd4a;
+}
+
+/* ---------------- Main Content ----------------- */
+.Principal {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        /* ---- Main ---- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 1560px;
+
+}
+
+article {
+    margin: auto;
+}
+
+.article-aside {
+    display: flexbox;
+    text-align: center;
+    border-radius: 10px;
+    width: 65%;
+    height: 22%;
+    background: #b8b8b8;
+}
+
+.aside-text {
+    margin: auto;
+    border-radius: 8px;
+    background-color: #d27c27;
+    color: #e2e2e2;
+    font-weight: 800;
+    width: 85%;
+}
+
+.aside-text a{
+    margin: auto;
+    border-radius: 8px;
+    background-color: #d27c27;
+    color: #e2e2e2;
+    font-weight: 800;
+    width: 85%;
+}
+
+.aside-text:hover {
+    width: 86%;
+    height: 18%;
+}
+
+.Introduccion-img {
+    width: 100%;
+    height: 65%;
+    background-color: transparent;
+    margin: auto;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+    object-fit: contain;
+}
+
+.main-image {
+    width: 50%;
+    height: 60%;
+}
+
+
+.Introducción p {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    color: #2b2b2b;
+    background-color: rgba(230, 230, 230, 0.55);
+    border-radius: 8px;
+    width: 80%;
+    height: 80%;
+}
+
+
+.text-mark {
+    color: tomato;
+}
+
+.Titulo-introduccion {
+    text-align: center;
+    font-size: 35px;
+}
+        /* ---- aside ---- */
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    width: 30%;
+    height: 1560px;
+}
+
+
+/* ---------------- Footer ---------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    color: white;
+    background-color: rgb(107, 107, 107);
+}
+
+.footer-text  {
+    text-align: center;
+}
+
+.footer-text p {
+    font-size: 17px;
+    margin-right: 60px;
+    font-weight: 700;
+}
+
+
+.footer-title {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.footer-title a {
+    font-weight: 800;
+    color: rgb(252, 153, 24);
+    font-size: 33px;
+}
+
+.footer-title a:hover {
+    font-size: 34px;
+}
+
+.list-title {
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(253, 175, 72);
+    text-align: center;
+}
+
+.footer-list {
+    display: flexbox;
+    font-size: 14px;
+    font-weight: 600;
+    width: 55%;
+}
+
+
+.list-images {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: rgb(119, 119, 119);
+    justify-content: space-between;
+}
+
+.footer-image img {
+    width: 15%  ;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+    object-fit: contain;
+    margin-right: 250px; /* el margen según sea necesario */
+    margin-left: 80px;
+}
+
+
