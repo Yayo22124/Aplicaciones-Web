@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.form-container {
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    height: 500px;
+
+    background-color: #87cfff8e;
+}
+
+
+.form-control {
+    margin: 20px 15px;
+
+    border-radius: 7px;
+    border: none;
+
+}
+
+.form-control input {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 6px;
+}
+
+fieldset { 
+    border-radius: 10px;
+}
+
+button {
+    background-color: hsl(204, 100%, 58%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 15px;
+    border-radius: 15px;
+}

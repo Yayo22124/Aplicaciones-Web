@@ -1,0 +1,157 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #292929;
+    color: aliceblue;
+}
+
+.title {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura completa de la ventana */
+    margin: 0;
+}
+
+  
+.contenedor {
+    display: flex;
+    flex: 1; /* El contenedor se expande para ocupar el espacio disponible */
+}
+  
+aside {
+    flex-basis: 250px; /* Establece el ancho del sidebar */
+    background-color: #444444;
+    color: white;
+}
+
+.aside-account {
+    margin-top: 20px;
+    padding: 5px 0px 35px 15px;
+    border-bottom: 2px solid black;
+
+}
+
+.aside-playlist {
+    bottom: auto;
+    margin-top: 80%;
+    padding: 35px 0px 35px 15px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+
+
+  
+main {
+    flex: 1; /* El contenido principal ocupará el espacio restante */
+    background-color: #252525;
+}
+
+
+
+.playlist-header {
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    font-weight: 700;
+    color: aliceblue;
+    height: 200px;
+    width: 100%;
+
+
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #181818, #434444);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #181818, #303030); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.list {
+    margin-left: 15px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+.song {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #414141;
+    border-radius: 9px;
+    font-weight: 600;
+    height: 60px;
+    width: 90%;
+}
+
+.song:hover {
+    background-color: #181818;
+}
+
+
+.play-button {
+    width: 25px;
+    margin-right: 55px;
+    margin-left: 15px;
+    color: white;
+}
+
+.play-button:hover {
+    width: 28px;
+}
+
+.song-img {
+    border-radius: 10px;
+    width: 55px;
+    margin-left: 22%;
+}
+
+.song-video {
+    display: flexbox;
+    margin: auto;
+    width: 80%;
+}
+
+.song-title {
+    color: aliceblue;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 15px;
+
+}
+
+.back-button img{
+    width: 35px;
+
+}
+
+.back-button img:hover {
+    width: 39px;
+
+}
+
+.song li {
+    padding: 10px;
+}
+
+
+  
